@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "neww.c"
+#include "calculator.c"
 
 int main()
 {
