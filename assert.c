@@ -4,19 +4,19 @@
 
 int main()
 {
-    assert(calc('+',5,10)==15);
+    assert(calc('+',15,10)==25);
     printf("passed");
-    assert(calc('+',5,-10)==-5);
+    assert(calc('+',15,110)==125);
     printf("\npassed");
     assert(calc('+',-5,-10)==-15);
     printf("\npassed");
     assert(calc('-',5,10)==-5);
     printf("\npassed");
-    assert(calc('-',5,-10)==15);
+    assert(calc('-',15,-10)==25);
     printf("\npassed");
-    assert(calc('-',-5,-10)==5);
+    assert(calc('-',-5,-20)==15);
     printf("\npassed");
-        assert(calc('*',5,10)==50);
+        assert(calc('*',15,10)==150);
     printf("\npassed");
     assert(calc('*',5,-10)==-50);
     printf("\npassed");
